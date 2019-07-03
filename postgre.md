@@ -6,7 +6,7 @@
 https://stackoverflow.com/questions/15301826/psql-fatal-role-postgres-does-not-exist
 
 For MAC:
-
+```
 Install Homebrew
 brew install postgres
 initdb /usr/local/var/postgres
@@ -24,3 +24,4 @@ By default user postgres will not have any login password.
 Check this site for more articles like this: https://medium.com/@Nithanaroy/installing-postgres-on-mac-18f017c5d3f7
 
 
+```
