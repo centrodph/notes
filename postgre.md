@@ -30,6 +30,33 @@ URI: postgres://postgres:docker@localhost:5432/postgres
 
 
 
+## import sql into docker
+
+```
+
+psql -f ./xxx.sql -U postgres -h localhost
+
+
+```
+
+# drop schema
+
+
+```
+
+
+DROP SCHEMA public CASCADE;
+CREATE SCHEMA public;
+GRANT ALL ON SCHEMA public TO postgres;
+GRANT ALL ON SCHEMA public TO public;
+
+
+```
+
+
+
+
+
 # create a user 
 
 https://stackoverflow.com/questions/15301826/psql-fatal-role-postgres-does-not-exist
